@@ -1,0 +1,24 @@
+
+ My Questions to the Product Manager :
+
+    1) What is the accessibility of a Guest user? Will he still be able to create an account on the fly and access?
+
+    2) Who are writable users ? difference between a "user" and a "writable user"?
+
+    3) Can a writable user be able to just view other user profile data ? If so what data is available for him/her ?
+
+    4) CSR can edit any user - does that mean he can change the password as well for any user? what kind of constraints does the CSR
+       has on its users?
+
+    5) If Edit Profile and Change Password has the same behavior - then why is password field not in the "Edit Profile" page - What kind of
+       behavior is same here - the Http operation ? or object change ? or anything else ??
+
+    6) What should happen when the CSR (editing user A) and the user A editing his profile - at the same time -? Who will have more access ?
+
+    7) Does the application work with all browsers/ OS/ devices etc ? Or it is available at it's best only in Certain devices and browsers ?
+
+    8) How is the non-human or Robot validated ?
+
+    9) What if my "Save Profile" is updated concurrently for the same user ? Which password should the application save?
+
+    10) How many chances does the user have to get the right login before the account is locked??

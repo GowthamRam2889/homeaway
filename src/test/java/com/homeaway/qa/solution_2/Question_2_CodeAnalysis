@@ -1,0 +1,29 @@
+
+    Code Analysis / White Box Testing:
+
+        1) First Bug :
+
+            There has been no validation in the "addRecipientToAllMessages()" method for the condition:
+                when ArrayList<Messages> is null. The Condition where the Collection is Null or Empty is not handled
+
+
+        2) Second Bug :
+
+             The following statement is wrong
+                if(successfulMessages.isEmpty())
+                {
+                    recipient.addRecipient(CurrentUser, successfulMessages);
+                }
+
+             If the "successfulMessages" list is empty - adding to the recipient list is not right.
+
+             It shoud be :
+                if(!successfulMessages.isEmpty())
+                {
+                    recipient.addRecipient(CurrentUser, successfulMessages);
+                }
+
+
+        3) Third Bug :
+
+            canReceiveMessage() should return "False"
