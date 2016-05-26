@@ -24,7 +24,7 @@ public class HA_Automation_Exercise_1 {
 
         QADemoPage.goToHome(driver);
 
-        System.out.println(" Successfully navigated to apple home !!");
+        System.out.println(" Successfully navigated to QA Demo home !!");
 
     }
 
@@ -58,7 +58,7 @@ public class HA_Automation_Exercise_1 {
     }
 
     /**
-     * This test removes the placed iPhone from the Cart
+     * This test removes the placed iPhone order from the Cart
      */
     @Test (description = "Removing the items from the Cart", dependsOnMethods = "secondTestCase")
     public void thirdTestCase() throws Exception{
